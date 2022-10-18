@@ -1,0 +1,21 @@
+{
+  "name": "eth-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build output/style.css -o output/eth-cloud.css",
+    "watch-css": "tailwindcss build -i output/style.css -o output/eth-cloud.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonfungiblehayor/eth-cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nonfungiblehayor/eth-cloud/issues"
+  },
+  "homepage": "https://github.com/nonfungiblehayor/eth-cloud#readme"
+}
